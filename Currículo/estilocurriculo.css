@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+    
+h1, h2{
+    color: green;
+}
+
+h1{
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    height: 4px;
+    background-color: orange;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li{
+    margin-bottom: 10px;
+    text-align: center;
+}
+    
+form{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+    
+label > input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
